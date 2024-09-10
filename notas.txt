@@ -1,0 +1,22 @@
+
+FRONT END
+La parte visual del sistema e interactiva, en progrmación web incluye
+html
+css
+javascript
+
+BACK END
+La parte que procesa los datos, se manejan lenguajes de programación
+java, python, php, c# etc.
+
+También incluye el desarrollo de las bases de datos
+sql server, mysql, postgresql
+nosql mongodb
+
+BOOTSTRAP
+texto
+email
+phone
+url
+
+
