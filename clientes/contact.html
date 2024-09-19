@@ -23,25 +23,31 @@
 	    </ul>
 	  </div>
 	</nav>
-	<div>
-		<form>
-			<h1>CONTACTANOS</h1>
-			<label>Nombre</label>
-			<input type="text" name="name" required />
-			<br />
-			<label>Email</label>
-			<input type="email" name="email" required />
-			<br />
-			<label>Teléfono</label>
-			<input type="tel" name="phone" required />
-			<br />
-			<label>Mensaje</label>
-			<textarea rows="10" cols="50" >
-				
-			</textarea>
-			<br />
-			<input type="submit" name="submit" value="ENVIAR" />
-		</form>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-6 offset-md-3">
+				<form>
+					<h1>CONTACTANOS</h1>
+					<div class="mb-3">
+						<label class="form-label">Nombre</label>
+						<input type="text" class="form-control" name="name" required />
+					</div>
+					<div class="mb-3">
+						<label class="form-label">Email</label>
+						<input type="email" class="form-control" name="email" required />
+					</div>
+					<div class="mb-3">
+						<label class="form-label">Teléfono</label>
+						<input type="tel" class="form-control" name="phone" required />
+					</div>
+					<div class="mb-3">
+						<label class="form-label">Mensaje</label>
+						<textarea rows="10" class="form-control" cols="50" ></textarea>
+					</div>
+					<input type="submit" class="btn btn-primary" name="submit" value="ENVIAR" />
+				</form>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
